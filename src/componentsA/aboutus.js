@@ -1,0 +1,16 @@
+export default function Aboutus(){
+    return(
+        <>
+            <div className="resumeBuilder">
+            <div className="aboutt">
+            <p>Resume Builder</p>
+            <hr/>
+            </div>
+                <br />
+                <p className="about-1">Hello there! Are you looking for a website that can make Professional Resume. Well, calm down you have landed at a right website. Its super duper easy. 
+               And Get you professional Resume in seconds. And also increase the chance of getting selected in top MNCs. Also share with your friends. Thankyou!</p>
+            </div>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/426/110/original/businessman-sitting-on-wood-chair-and-get-idea-the-other-one-no-idea-vector-illustration-in-flat-style-cartoon-character.jpg" alt='img#'  className="resume-imagee" />
+        </>
+    )
+}
