@@ -215,9 +215,9 @@ then Components B( conatining all the deatils  page */
 .buttons-1,.buttons-2,.buttons-3,.buttons-4{
   position: absolute;
   width: 113px;
-  height: 34px;
-  bottom: 150px;
-  left: 150px;
+  height: 30px;
+  bottom: 155px;
+  left: 175px;
   right: 0px;
   font-weight: 500;
   background-color: blue;
