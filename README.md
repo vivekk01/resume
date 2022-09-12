@@ -6,17 +6,19 @@ The Project RESUME has been made using React, CSS, React-Bootstrap, React hooks,
 
 3) In Components B there are all the details page like personal info, work exp. etc.
 
-4) I have used react router for navigating bewtween pages,
+4) I have used react router for navigating bewtween pages.
 
-5) And also I have applied my out of the box thinking logic.
+5) Made the page responsive using media query.
 
-6) Input data are stored in localStorage.
+6) And also I have applied my out of the box thinking logic.
 
-6) All the codes are written by my hands as I'm the only person in my project. 
+7) Input data are stored in localStorage.
 
-7) This is my self made Frontend-Development Project on Resume using React.
+8) All the codes are written by my hands as I'm the only person in my project. 
 
-8) Thankyou Almabetter for giving us this wonderful project.
+9) This is my self made Frontend-Development Project on Resume using React.
+
+10) Thankyou Almabetter for giving us this wonderful project.
 
 
 

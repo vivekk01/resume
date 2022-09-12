@@ -7,6 +7,7 @@ import { useNavigate} from 'react-router-dom';
 import { useState } from 'react';
 
 function PersonalInfo(props) {
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
   const navigate = useNavigate();
   const navToWorkExp  = ()=>{
     navigate('/myResume/workExperience')

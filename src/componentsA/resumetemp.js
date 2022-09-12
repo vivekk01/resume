@@ -5,6 +5,7 @@ import LOGO3 from '../resume4.jpg'
 import React from 'react'
 import { useNavigate} from 'react-router-dom'
 export default function Resumetemp(){
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
     const navigate = useNavigate();
     const page1  = ()=>{
         navigate('/myResume/personalInfo')
@@ -32,12 +33,13 @@ export default function Resumetemp(){
     <div className='tempss'>
     <p className='temp'>Templates</p>
     <p className='select-temp'>Select a Template to get Started</p>
-    </div>
+    
     <div className="images">
     <img src={LOGO}  alt="#" onMouseEnter={()=>setStatus(true)} onMouseLeave={()=>setStatus(false)} className="resume-image"/>
     <img src={LOGO1} alt="#" onMouseEnter={()=>setStatus1(true)} onMouseLeave={()=>setStatus1(false)} className="resume-image"/>
     <img src={LOGO2} alt="#" onMouseEnter={()=>setStatus2(true)} onMouseLeave={()=>setStatus2(false)} className="resume-image"/>
     <img src={LOGO3} alt="#" onMouseEnter={()=>setStatus3(true)} onMouseLeave={()=>setStatus3(false)} className="resume-image"/>
+    </div>
     </div>
     </>
 );

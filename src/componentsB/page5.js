@@ -6,6 +6,7 @@ import LOGO from '../resume1.jpg'
 import { useNavigate } from 'react-router';
 import { useState } from 'react';
 export default function Save(){
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
     const navigate  = useNavigate();
     const [data,setData] = useState(false)
     const valuee=()=>{
@@ -16,9 +17,9 @@ export default function Save(){
     }
     return(
         <>
+         <div className="page-5 ">
         <p className='preview'>Resume Preview</p>
         <img src={LOGO}  alt="#" className="preview-image"/>
-        <div className="page-5 ">
         <Form>    
         <Row className = "mt-5">
         <Col xs={5}>
